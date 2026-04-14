@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "ink-white",
+	"version": "${version}",
+	"name": "flybrid",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/ink-white/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.baijj.inkwhite.Flybrid"
+		],
+		"fabric-datagen": [
+			"net.baijj.inkwhite.FlybridDataGenerator"
+		]
+	},
+	"mixins": [
+		"ink-white.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.1",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
