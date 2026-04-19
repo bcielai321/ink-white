@@ -3,20 +3,23 @@
 	"id": "ink-white",
 	"version": "${version}",
 	"name": "flybrid",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is an test mod by baijj",
 	"authors": [
-		"Me!"
+		"baijj"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/ink-white/icon.png",
+	"icon": " ",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"net.baijj.inkwhite.Flybrid"
+		],
+		"client": [
+			"net.baijj.inkwhite.FlybridClient"
 		],
 		"fabric-datagen": [
 			"net.baijj.inkwhite.FlybridDataGenerator"
