@@ -1,6 +1,7 @@
 package net.baijj.inkwhite.item;
 
 import net.baijj.inkwhite.Flybrid;
+import net.baijj.inkwhite.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -14,8 +15,11 @@ public class ModItemGroups {
             new Identifier(Flybrid.MOD_ID, "ruby"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ruby"))
                     .icon(() ->new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
+
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.RAW_RUBY);
+
+                        entries.add(ModBlocks.RUBY_BLOCK);
                     }).build());
 
     public static void registerItemGroups(){

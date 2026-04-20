@@ -1,5 +1,6 @@
 package net.baijj.inkwhite;
 
+import net.baijj.inkwhite.block.ModBlocks;
 import net.baijj.inkwhite.item.ModItemGroups;
 import net.baijj.inkwhite.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -15,6 +16,8 @@ public class Flybrid implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
