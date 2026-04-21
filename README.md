@@ -12,6 +12,7 @@
 
 ### **当前状态**
 ⚠️ **注意**：本模组目前处于早期测试/实验阶段（Experimental/Testing），仅建议用于开发环境测试，请勿直接用于重要的生存存档。
+
 ---
 
 ## 🛠️ 技术实现与原理 (Technical Implementation)
@@ -55,7 +56,7 @@
 ### **相关链接**
 - [官方文档 (Fabric)](https://docs.fabricmc.net/)
 - [反馈问题 (Issues)](https://github.com/bcieal321/flybrid/issues)
-- [更新日志 (Changelog)](./CHANGELOG.md)
+- [更新日志 (Changelog)](CHANGELOG.md)
 
 ### **开源协议**
 本项目采用 [MIT License](./LICENSE) 授权。你可以自由学习、修改或集成代码，但请务必保留原始版权声明。
@@ -112,7 +113,7 @@ If you wish to explore or contribute to the source code, please follow these ste
 ### **Quick Links**
 - [Fabric Documentation](https://docs.fabricmc.net/)
 - [Report Issues](https://github.com/bcieal321/flybrid/issues)
-- [Changelog](./CHANGELOG.md)
+- [Changelog](CHANGELOG.md)
 
 ### **License**
 Licensed under the [MIT License](./LICENSE). You are free to learn from, modify, and incorporate this code into your own projects, provided that the original copyright notice is included.
