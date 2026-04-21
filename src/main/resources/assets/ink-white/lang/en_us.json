@@ -2,5 +2,8 @@
   "item.ink-white.ruby": "Ruby",
   "item.ink-white.raw_ruby": "Raw Ruby",
 
-  "itemgroup.ruby": "Ruby Tutorial Group"
+  "block.ink-white.ruby_block": "Block of Ruby",
+  "block.ink-white.raw_ruby_block": "Block of Raw Ruby",
+
+  "itemgroup.ruby": "Flybrid Tutorial Group"
 }

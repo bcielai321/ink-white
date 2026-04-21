@@ -2,5 +2,8 @@
   "item.ink-white.ruby": "红宝石",
   "item.ink-white.raw_ruby": "红宝石原矿",
 
+  "block.ink-white.ruby_block": "红宝石块",
+  "block.ink-white.raw_ruby_block": "红宝石原矿块",
+
   "itemgroup.ruby": "飞鸟"
 }
